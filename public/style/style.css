@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color:#D14836;
+    font-family: Arial;
+    margin: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    background: #ECD06F;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:#ECD06F;
+    width: 70%;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    width:50%;
+    flex: none;
+}
+
+label {
+  padding: 3%;
+}
+
+.input {
+    border: 2px solid transparent;
+    width: 50%;
+    height: 50%;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+
+  button {
+    margin: 2%;
+    padding: auto;
+    width: auto;
+    height: 5%;
+    border: 2px solid transparent;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+
+  }
+
+  button:hover,
+  button:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+
+  .output-block {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width:50%;
+    flex: none;
+  }
+
+
+
+  #output {
+    border: 2px solid transparent;
+    width: 50%;
+    /* height: 50%; */
+    padding: 1%;
+    /* outline: none; */
+    /* overflow: hidden; */
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    word-break: break-all;
+    overflow-y: visible; 
+    white-space: pre-wrap; 
+  }
+
+
+  
+
+
+.footer {
+    z-index: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2%;
+    /* display: block; */
+    text-align: end;
+    /* margin: auto; */
+    /* background-color: aqua; */
+    background: rgba(0, 0, 0, 0.2);
+}
